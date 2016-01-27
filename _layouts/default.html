@@ -13,7 +13,7 @@
             <br>
           {% for page in site.page_list %}
             &nbsp;&nbsp;&nbsp;
-            <small><a href="{{ page[1]  }}">{{ page[0] }}</a></small>
+            <small><a href="{{ page[1]  }}">{{ site.baseurl }}{{ page[0] }}</a></small>
           {% endfor %}
         </h3>
       </header>
