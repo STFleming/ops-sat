@@ -8,12 +8,17 @@ permalink:           pretty
 gems: [jekyll-paginate]
 
 # Setup
-title:               OPS-SAT @ Imperial
+title:               OPS-SAT@Imperial
 tagline:             testing commercial FPGAs in space
 url:
 paginate: 5
 paginate_path: "page:num"
 baseurl:             "/ops-sat"
+
+#Pages
+page_list:
+  About: '/about'
+  Archive: '/archive'
 
 # Assets
 #
@@ -24,7 +29,7 @@ sass:
 
 # About/contact
 author:
-  name:              Mark Otto
+  name:              Shane Fleming
   url:               https://twitter.com/mdo
   email:             markdotto@gmail.com
 
