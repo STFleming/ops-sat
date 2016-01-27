@@ -9,10 +9,8 @@
 title: FPGAs in Space
 email: shane.fleming06@imperial.ac.uk
 description: > # this means to ignore newlines until "baseurl:"
-        A blog documenting the progress of the European Space Agency OPS-SAT experiments
-        being developed at the Circuits and Systems Group Imperial College London, where
-        the viability of Commercial Off The Shelf (COTS) Field Programmable Gate Arrays (FPGA)
-        in space is being explored.
+            Blog detailing the experiments onboard the ESA OPS-SAT mission developed by
+            the Circuits and Systems Group at Imperial College London.
 baseurl: "/ops-sat" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
 twitter_username: cas_OPS-SAT
