@@ -13,8 +13,8 @@ description: > # this means to ignore newlines until "baseurl:"
         being developed at the Circuits and Systems Group Imperial College London, where
         the viability of Commercial Off The Shelf (COTS) Field Programmable Gate Arrays (FPGA)
         in space is being explored.
-baseurl: "http://stfleming.github.io/ops-sat" # the subpath of your site, e.g. /blog
-url: "http://stfleming.github.io/ops-sat" # the base hostname & protocol for your site
+baseurl: "/ops-sat" # the subpath of your site, e.g. /blog
+url: "/" # the base hostname & protocol for your site
 twitter_username: cas_OPS-SAT
 github_username:  sf306
 
