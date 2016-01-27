@@ -12,7 +12,7 @@ description: > # this means to ignore newlines until "baseurl:"
             Blog detailing the experiments onboard the ESA OPS-SAT mission developed by
             the Circuits and Systems Group at Imperial College London.
 baseurl: "/ops-sat" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
+url: "http://stfleming.github.io" # the base hostname & protocol for your site
 twitter_username: cas_OPS-SAT
 github_username:  sf306
 
