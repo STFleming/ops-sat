@@ -11,6 +11,12 @@ title: Home
         {{ post.title }}
       </a>
     </h1>
+    {% assign author = site.data.authors[post.author] %}
+    {% if author %}
+        <span>
+            Written by <a href="{{ author.web }}" target="_blank">{{ author.name }}</a>
+        </span>
+    {% endif %}
 
     <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date_to_string }}</time>
 
