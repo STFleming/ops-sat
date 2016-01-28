@@ -30,10 +30,10 @@ sass:
 # About/contact
 author:
   name:              Shane Fleming
-  url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
+  url:               http://cas.ee.ic.ac.uk/people/sf306
+  email:             shane.fleming06@imperial.ac.uk
 
 # Custom vars
 version:             2.0.0
 github:
-  repo:              https://github.com/poole/poole
+  repo:              https://github.com/stfleming
