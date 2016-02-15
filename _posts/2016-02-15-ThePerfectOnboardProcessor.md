@@ -14,17 +14,17 @@ What would the ideal on board spacecraft processor look like? Me and my colleagu
 * Flexibility to change things “in orbit”
 * Rad-hard
 
-###The ideal satellite processor would have high processing power...
+**The ideal satellite processor would have high processing power...**
 High processing power is desirable in space applications but is often difficult to achieve.
 One example is compression algorithms, these computationally intensive algorithms are useful as they reduce the amount of downlinking required (transmission back to earth) .
 Such high processing power comes at a cost though, as fast CPUs generally use a lot of power and energy, taking us to our next point.
 
-###The ideal satellite processor would have low power consumption...
+**The ideal satellite processor would have low power consumption...**
 Power consumption and energy usage are huge constraints in satellite designs, generally because everything needs to be powered from small solar panels.
 The output from the solar panels is often not reliable; a tumbling satellite might not get full exposure to the sun, and power production degrades over time due to exposure to radiation.
 This often requires a great deal of power *“slack”* further reducing the power/energy available for processing.
 
-###The ideal satellite processor would be flexible...
+**The ideal satellite processor would be flexible...**
 Low Earth Orbit is a pretty difficult place to reach, and when designing big complex systems mistakes
 happen and situations change.
 In this regard software is great because it is flexible, patches/fixes can be tested on the ground and
@@ -32,7 +32,7 @@ applied to the craft remotely.
 However hardware is inflexible, for example if a silicon bug causes an interrupt to occur with an incorrect priority then it might not be detected
 during ground testing but could cause uncorrectable problems in orbit.
 
-###The ideal satellite processor would be Rad-Hard...
+**The ideal satellite processor would be Rad-Hard...**
 Rad-Hard refers to radiation hardened, but is becoming a more general term for reliable, fault tolerant, electronics.
 Radiation is a problem for on board computers as unwanted energy can cause memory bits
 to flip from 1 to 0, or 0 to 1.
