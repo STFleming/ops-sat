@@ -19,7 +19,12 @@ baseurl:             "/ops-sat"
 page_list:
   About: '/about'
   Archive: '/archive'
+  Subscribe: '/subscribe'
 
+#mailchimp Variables
+mailchimp:
+  user-id: 'shane.fleming06@imperial.ac.uk'
+  list-id: '99b58cf732'
 # Assets
 #
 # We specify the directory for Jekyll so we can use @imports.
